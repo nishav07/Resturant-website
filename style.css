@@ -1,0 +1,604 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    height:70vh;
+    width: 100vw;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.foodpng{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.food1{
+    height:25rem;
+    width: 35rem;
+    text-align: center;
+}
+
+.food1 p{
+    font-weight: 1000;
+    margin-top:1rem;
+}
+
+.food1 button{
+    height: 6vh;
+    width: 12vw;
+    background-color:transparent;
+    font-weight: 1000;
+    border: 1px solid black;
+    margin-top: 0.5rem;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.food1 button:hover{
+    color:#FFE100;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+.food2{
+    height:40rem;
+    width: 40rem;
+    background-image: url(plate.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 16rem;
+    animation: scroll linear 0.5s;
+}
+
+.decor1{
+    height: 100px;
+    width:100px;
+    margin-top: 10rem;
+    background-image: url(tukda1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.decor2{
+    height: 70px;
+    width:70px;
+    margin-top: 12rem;
+    background-image: url(Tomato.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 4rem;
+}
+.decor3{
+    height: 82px;
+    width:60px;
+    background-image: url(leaf1.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 30rem;
+    margin-top: -7rem;
+}
+.tags{
+    height: 10vh;
+    width: 20vw;
+    margin-left:8rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tag1{
+    height: 4.5vh;
+    width: 8vw;
+    background-image: url(This\ Monday\ Happy\ Hours.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.tag2{
+    height: 6vh;
+    width: 8vw;
+    background-image: url(oneplus.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.leaf{
+    height:8.5vh;
+    width: 2.5vw;
+    background-image: url(Leaf.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 18rem;
+}
+.title{
+    height:6vh;
+    width:16.5vw;
+    background-image: url(Title.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 10.2rem;
+    margin-top: 2rem;
+    animation: text 1s ease-out forwards;
+}
+
+.title2{
+    height:8vh;
+    width:30vw;
+    background-image: url(Subtitle.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    animation: text 1s ease-out forwards;
+}
+
+header{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.top1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.P{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.pt2{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 5.5vh;
+    width: 10.8vw;
+    background-image: url(Place\ Your\ Logo\ Here\ \(Double\ Click\ to\ Edit\).png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 5rem;
+}
+.p1{
+    font-size:0.65rem;
+}
+
+.p2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pt2 i{
+    font-size:2.5rem;
+    margin-right: 1rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ul1{
+    display: flex;
+    margin-right: 1.2rem;
+}
+
+.ul1 li{
+    margin-left: 3rem;
+}
+
+.container2{
+    height:100vh;
+    width: 100vw;
+}
+.top{
+    height:17vh;
+    width:60vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.top p{
+    margin-top: 1rem;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}
+.stripe{
+    background-color:#ECEAAA;
+    height:7rem;
+    width: 100vw;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.boxa{
+    height: 300px;
+    width: 300px;
+    background-image: url(pic1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.boxb{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(pic2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.boxc{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(pic3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.details{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.d1{
+    height: 100px;
+    width: 270px;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+.d1 p{
+    margin-top: 0.5rem;
+}
+.order{
+    background-color: yellow;
+    height: 2rem;
+    width: 7rem;
+    margin-top: 1rem;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+}
+
+.box2 p{
+    margin-top: 0.5rem;
+}
+
+.box2 h2{
+    margin-top: 0.2rem;
+}
+
+.banner{
+    height: 30vh;
+    width: 100vw;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.bannerpt1{
+    height: 30vh;
+    width: 35%;
+    background-image: url(banbg1.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: -5rem;
+}
+
+.bannerpt2{
+    height: 30vh;
+    width: 35%;
+    background-image: url(banbg2.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: -5rem;
+    z-index: 0;
+}
+
+.highban{
+    height: 280px;
+    width: 900px;
+    background-image: url(highban.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.container3{
+    height: 45vh;
+    width: 100vw;
+    margin-top: 10rem;
+}
+
+.pic{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.part1{
+    height:55vh;
+    width: 40vw;
+    background-image: url(bannerpt1.png);
+    background-size: cover;
+    background-position:center;
+}
+
+.part1 h1{
+    color: white;
+    font-family: monospace;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+#h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.part2{
+    height:55vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.one{
+    height:50%;
+    width: 40vw;
+    background-image: url(picpt1.png);
+    background-size: cover;
+    background-position:center ;
+}
+
+.one h1{
+    color: white;
+    font-family: monospace;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+}
+
+#h1a{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.two{
+    height:50%;
+    width: 40vw;
+    background-image: url(picpt2.png);
+    background-size: cover;
+    background-position:center ;
+}
+
+.two h1{
+    color: white;
+    font-family: monospace;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+}
+
+.container4{
+    height: 30vh;
+    width: 100vw;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.inputgrid{
+    height: 30vh;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 3vw 3vw 3vw;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    justify-content: center;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.inputgrid input{
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.inputgrid button{
+    border: 1px solid yellowgreen;
+    background-color: yellow;
+}
+
+footer{
+    height:50vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(footbg.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.footer1{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.foot1{
+    height:40vh;
+    width: 40vw;
+}
+
+.foot1 p{
+    margin-top: 3rem;
+    color: white;
+}
+
+#p{
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    color: white;
+}
+.footlogo{
+    height: 10.2vh;
+    width: 20vw;
+    background-image: url(footlogo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.foot2{
+    height: 40vh;
+    width: 40vw;
+
+}
+
+.location{
+    height: 10vh;
+    width: 20vw;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+.location p{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.location i {
+    color: #FFE100;
+    margin-right: 0.5rem;
+}
+
+.handles{
+    height: 5vh;
+    width: 15vw;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25rem;
+}
+
+.handles i{
+    font-size:1.5rem;
+    color: white;
+}
+.sub2{
+    height: 4.5vh;
+    width: 25.5vw;
+    background-image: url(sub2.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 16rem;
+}
+
+.sub3{
+    height: 4.5vh;
+    width: 28vw;
+    background-image: url(sub3.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 15rem;
+    margin-top:0.5rem;
+}
+
+.book{
+    height: 4.5vh;
+    width: 31vw;
+    background-image: url(book.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 15rem;
+    margin-top:0.5rem;
+}
+
+.ul1 a{
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.ul1 li{
+    z-index: 1;
+}
+
+.ul1 :hover{
+    color: #585836;
+}
+
+@keyframes scroll {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to  {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
